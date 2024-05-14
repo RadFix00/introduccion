@@ -44,6 +44,6 @@ btnValidar.addEventListener("click", function (e) {
     orden.appendChild(salto);
     
     nOrden++;
-console.log("hola");
+
 
 });
