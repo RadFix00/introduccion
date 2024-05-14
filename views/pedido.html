@@ -37,9 +37,9 @@
       <br>
       <form id="dataForm" method="post" action="/php/receive.php">
 
-        <legend id="orden">CREAR ORDEN </legend><br><br>
+        <legend id="ordenT">CREAR ORDEN </legend><br><br>
         <div class="texto2">
-          <label id="nombre">Nombre del cliente:</label>
+          <label id="nombre">Nombre del cliente y <br> apellidos:</label>
 
           <input type="text" id="name" name="name" placeholder="Introduce tu nombre" minlength="3" maxlength="50"
             title="introduce al menos 3 caracteres maximo 50" tabindex="0" autofocus="true" autocomplete="off"
@@ -74,15 +74,16 @@
         <br><br>
         <br><br><br>
         <div class="precio">
-          <input class="validar"    type="submit" value="Envio de datos"><!--php-->
-          <button class="validar"  id="validar">Enviar orden</button><!--js-->
+          <a class="orden" href="/views/orden.html">Ver pedidos</a>
+          <button class="orden"  id="validar">Enviar orden</button><!--js-->
         </div>
       </form>
 
     </section>
-
+  
   </main>
   <script src="/scripts/pedido.js"></script>
+  <script src="/scripts/orden.js"></script>
 </body>
 
 </html>
